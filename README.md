@@ -2,7 +2,7 @@
 <img src="https://storage.googleapis.com/cloudbuild-badges/cloudbuild-android-master.svg" />
 
 ## What it does?
-
+- Adding  this line to make test for GCP CLoud
 - It builds a Docker container from [Google Cloud Source Repositories](https://cloud.google.com/source-repositories) or [GitHub](https://github.com/marketplace/google-cloud-build) with [Google Cloud Build](https://cloud.google.com/source-repositories/docs/integrating-with-cloud-build).
 - It publishes the image as `eu.gcr.io/$PROJECT_ID/cloudbuild-android` to the project's [Container Registry](https://console.cloud.google.com/gcr/images).
 - It has OpenJDK 8, Android `sdkmanager`, Gradle wrapper, as well as an Android application for testing purposes.
